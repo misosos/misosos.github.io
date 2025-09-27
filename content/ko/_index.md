@@ -19,7 +19,7 @@ sections:
       # text: 이력서 다운로드
       #  url: uploads/resume.pdf
       headings:
-        about: ''
+        about: 소개
         education: ''
         interests: 관심 분야
     design:
