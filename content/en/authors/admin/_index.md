@@ -1,5 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
+slug: admin 
 title: ''
 date: 2022-10-24
 type: landing
@@ -16,12 +17,12 @@ sections:
       text: ''
       # Show a call-to-action button under your biography? (optional)
       #button:
-      # text: 이력서 다운로드
+      #  text: Download CV
       #  url: uploads/resume.pdf
       headings:
         about: ''
         education: ''
-        interests: 관심 분야
+        interests: ''
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
