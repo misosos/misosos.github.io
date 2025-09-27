@@ -23,11 +23,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: 컴퓨터공학
+role: Computer Science
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: 전북대학교 컴퓨터인공지능학부
+  - name: Jeonbuk National University Department of Computer and Artificial Intelligence
     url: https://csai.jbnu.ac.kr/csai/index.do
 
 # Social network links
@@ -48,10 +48,10 @@ profiles:
   # url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - 웹 프론트엔드 개발
-  - 웹 퍼포먼스 & 최적화
-  - UI/UX 디자인 & 인터랙션
-  - 클라우드·DevOps 기반 배포
+  - Web front-end development
+  - Web Performance & Optimization
+  - UI/UX Design & Interaction
+  - Cloud/DevOps-based deployment
 
 #education:
 #  - area: PhD Computer Science (AI Focus)
@@ -166,7 +166,9 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-2023년에 전북대학교 컴퓨터인공지능학부에 입학하여 
-현재 컴퓨터인공지능학부 3학년에 재학 중입니다.
-웹과 앱을 직접 만들어 보는 데 흥미가 있어 프론트엔드 개발을 공부하고 있으며, 수업과 작은 개인 프로젝트를 통해 React와 JavaScript 등 기본기를 차근차근 쌓아가고 있습니다.  
-앞으로는 더 다양한 웹 기술을 배우고 실습하며 사용자에게 편리한 서비스를 만드는 개발자가 되고자 합니다.
+In 2023, I entered the Department of Computer and Artificial Intelligence at Jeonbuk National University  
+and am currently a junior majoring in Computer Engineering.  
+I enjoy creating web and mobile applications and am studying front-end development.  
+Through classes and small personal projects, I am steadily building a solid foundation in React and JavaScript.  
+Going forward, I aim to learn and practice more diverse web technologies and become a developer  
+who provides convenient and user-friendly services.
