@@ -1,6 +1,4 @@
 ---
-slug: admin
-
 # Display name
 title: 김미소
 
