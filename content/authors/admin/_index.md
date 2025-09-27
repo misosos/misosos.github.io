@@ -1,4 +1,6 @@
 ---
+slug: admin
+
 # Display name
 title: 김미소
 
@@ -6,8 +8,8 @@ title: 김미소
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: 김
+last_name: 미소
 
 # Pronouns (optional)
 # pronouns: he/him
