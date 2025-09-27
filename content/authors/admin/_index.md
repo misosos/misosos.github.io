@@ -1,5 +1,6 @@
 ---
 # Display name
+slug: admin
 title: 김미소
 
 # Name pronunciation (optional)
