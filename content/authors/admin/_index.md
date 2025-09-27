@@ -23,12 +23,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: 컴퓨터인공지능학부
+role: 컴퓨터공학
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: 전북대학교
-    url: https://www.jbnu.ac.kr/
+  - name: 전북대학교 컴퓨터인공지능학부
+    url: https://csai.jbnu.ac.kr/csai/index.do
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
