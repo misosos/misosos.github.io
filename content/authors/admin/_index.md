@@ -10,7 +10,7 @@ first_name: Alex
 last_name: Johnson
 
 # Pronouns (optional)
-pronouns: he/him
+# pronouns: he/him
 
 # Status emoji
 status:
