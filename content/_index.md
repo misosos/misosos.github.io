@@ -15,11 +15,11 @@ sections:
       username: admin
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: 이력서 다운로드
-        url: uploads/resume.pdf
+      #button:
+      # text: 이력서 다운로드
+      #  url: uploads/resume.pdf
       headings:
-        about: 소개
+        about: ''
         education: ''
         interests: 관심 분야
     design:
