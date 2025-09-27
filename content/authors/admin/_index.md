@@ -166,4 +166,7 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+2023년에 전북대학교 컴퓨터인공지능학부에 입학하여 
+현재 컴퓨터인공지능학부 3학년에 재학 중입니다.
+웹과 앱을 직접 만들어 보는 데 흥미가 있어 프론트엔드 개발을 공부하고 있으며, 수업과 작은 개인 프로젝트를 통해 React와 JavaScript 등 기본기를 차근차근 쌓아가고 있습니다.  
+앞으로는 더 다양한 웹 기술을 배우고 실습하며 사용자에게 편리한 서비스를 만드는 개발자가 되고자 합니다.
