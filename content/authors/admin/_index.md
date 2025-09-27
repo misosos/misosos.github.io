@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Alex Johnson
+title: 김미소
 
 # Name pronunciation (optional)
 name_pronunciation: ''
