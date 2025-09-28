@@ -1,22 +1,22 @@
 ---
-title: Courses
-summary: My courses
+title: Contact
+summary: ''
 type: landing
 
 cascade:
   - target:
-      path: '{/courses/*/**}'
+      path: '{/contact/*/**}'
     type: docs
     params:
       show_breadcrumb: true
 
 sections:
   - block: collection
-    id: courses
+    id: contact
     content:
-      title: Courses
+      title: Contact
       filters:
-        tag: Course
+        tag: Contact
         kinds:
           - section
     design:
