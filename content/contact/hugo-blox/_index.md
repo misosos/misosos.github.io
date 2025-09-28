@@ -6,10 +6,10 @@ type: docs
 
 tags:
   - Hugo Blox
-  - Course
+  - Contact
 
 content_meta:
-  content_type: 'Course'
+  content_type: 'Contact'
   difficulty: 'Beginner'
   prerequisites: ['Markdown']
   trending: false
