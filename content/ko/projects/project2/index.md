@@ -1,6 +1,6 @@
 ---
-title: 순수 웹 언어로 TodoList 개발
-date: '2025-09-25'
+title: 순수 웹 언어로 TodoList 구현
+date: 2025-09-25
 links:
   - type: site
     url: https://jsfiddle.net/kimmiso/Ln8xoyb9/14/

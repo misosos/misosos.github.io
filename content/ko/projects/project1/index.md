@@ -1,6 +1,6 @@
 ---
 title: 타임캡슐 앱 개발
-date: '2024-12-20'
+date: 2024-12-20
 links:
   - type: pdf
     url: /uploads/모바일프로그래밍_팀프로젝트_최종발표.pdf

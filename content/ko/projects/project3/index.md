@@ -1,15 +1,16 @@
 ---
-title: scikit-learn
-date: 2023-10-26
+title: 영화 추천 알고리즘 구현
+date: 2024-12-03
 links:
-  - type: site
-    url: https://github.com/scikit-learn/scikit-learn
+  - type: pdf
+    url: /uploads/알고리즘 최종 제안서.pdf
+    name: 알고리즘 팀프로젝트 최종 발표안
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Algorithm
+  - Data Visualization
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+전북대학교 알고리즘 수업에서 2명이 함께 진행한 영화 추천 프로그램을 구현하고 대용량 데이터를 정렬하여 정렬알고리즘의 성능을 비교하는 프로젝트입니다.  
+MovieLens 1M 데이터셋(평점 1,000,209건, 영화 3,883편)을 활용하여 대용량 데이터를 정렬·추천하고, 정렬 결과를 시각화하여 비교했습니다.
 
 <!--more-->
