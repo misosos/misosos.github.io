@@ -17,8 +17,7 @@ sections:
       text: |-
         email: [miso0307@jbnu.ac.kr](mailto:miso0307@jbnu.ac.kr)  
         phone: 010-5596-7294  
-        address: 전라북도 전주시 덕진구 백제대로 567
-
+        address: [54896] 전북특별자치도 전주시 덕진구 백제대로 567 전북대학교 공과대학 7호관 
         <iframe
           width="100%"
           height="420"
