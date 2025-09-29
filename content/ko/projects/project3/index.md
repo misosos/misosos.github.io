@@ -1,10 +1,6 @@
 ---
 title: 영화 추천 알고리즘 구현
 date: 2024-12-03
-links:
-  - type: pdf
-    url: /uploads/알고리즘 최종 제안서.pdf
-    name: 알고리즘 팀프로젝트 최종 발표안
 tags:
   - Algorithm
   - Data Visualization
