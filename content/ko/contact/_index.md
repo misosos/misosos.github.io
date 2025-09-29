@@ -11,23 +11,22 @@ type: landing
 #      show_breadcrumb: true
 
 sections:
-  - block: contact
-    id: contact
+  - block: markdown
     content:
       title: Contact
-      email: miso0307@jbnu.ac.kr
-      phone: 010-5596-7294
-      text: |
-        찾아오시는 길 
-      address:
-        street: 전북대학교 공과대학 7호관
-        city: 전주시
-        region: 전라북도
-        postcode: '54896'
-        country: 대한민국
-      coordinates:
-          latitude: '35.84601324617979'
-          longitude: '127.13444961966684'
+      text: |-
+        email: [miso0307@jbnu.ac.kr](mailto:miso0307@jbnu.ac.kr)  
+        phone: 010-5596-7294  
+        address: 전북대학교 공과대학 7호관, 전주시, 전라북도 54896, 대한민국
+
+        <iframe
+          width="100%"
+          height="420"
+          frameborder="0"
+          scrolling="no"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=127.1344496,35.8460132,127.1344496,35.8460132&layer=mapnik&marker=35.8460132,127.1344496">
+        </iframe>
+  ---
    
     #design:
     #  view: article-grid
