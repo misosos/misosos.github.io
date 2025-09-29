@@ -22,3 +22,5 @@ content_meta:
 This course provides a brief introduction to creating and editing your site with Hugo Blox. For full documentation, refer to the [Hugo Blox Documentation](https://docs.hugoblox.com/).
 
 ## Next
+
+

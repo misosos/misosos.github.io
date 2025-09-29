@@ -19,10 +19,10 @@ sections:
         tag: Contact
         kinds:
           - section
-    design:
-      view: article-grid
-      show_read_time: false
-      show_date: false
-      show_read_more: false
-      columns: 1
+    #design:
+    #  view: article-grid
+    #  show_read_time: false
+    #  show_date: false
+    #  show_read_more: false
+    #  columns: 1
 ---
