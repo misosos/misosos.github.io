@@ -11,7 +11,7 @@ type: landing
 #      show_breadcrumb: true
 
 sections:
-  - block: contact
+  - block: markdown
     id: contact
     content:
       title: Contact
