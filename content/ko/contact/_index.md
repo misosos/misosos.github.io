@@ -11,7 +11,7 @@ type: landing
 #      show_breadcrumb: true
 
 sections:
-  - block: markdown
+  - block: contact
     id: contact
     content:
       title: Contact
@@ -25,15 +25,14 @@ sections:
         region: 전라북도
         postcode: '54896'
         country: 대한민국
+      coordinates:
+          latitude: '35.84601324617979'
+          longitude: '127.13444961966684'
     features:
       map:
         provider: 'mapnik'
         api_key: ''
         zoom: 15
-      content:
-        coordinates:
-          latitude: '35.84601324617979'
-          longitude: '127.13444961966684'
    
     #design:
     #  view: article-grid
