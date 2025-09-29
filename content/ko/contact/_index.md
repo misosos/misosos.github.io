@@ -26,7 +26,6 @@ sections:
           scrolling="no"
           src="https://www.openstreetmap.org/export/embed.html?bbox=127.1344496,35.8460132,127.1344496,35.8460132&layer=mapnik&marker=35.8460132,127.1344496">
         </iframe>
-  ---
    
     #design:
     #  view: article-grid
@@ -34,4 +33,5 @@ sections:
     #  show_date: false
     #  show_read_more: false
     #  columns: 1
+---
 
