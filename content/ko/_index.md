@@ -14,14 +14,17 @@ sections:
     content:
       title: ''
       text: |-
-        <div class="relative w-56 h-56 mx-auto">
-          <!-- 기본 이미지 -->
-          <img src="/uploads/profile-default.png" alt="Profile 기본"
-               class="absolute inset-0 w-full h-full rounded-full object-cover transition-opacity duration-300 hover:opacity-0">
-          
-          <!-- Hover 시 나타나는 이미지 -->
-          <img src="/uploads/profile-hover.png" alt="Profile Hover"
-               class="absolute inset-0 w-full h-full rounded-full object-cover opacity-0 transition-opacity duration-300 hover:opacity-100">
+        <div class="w-56 h-56 mx-auto">
+          <img 
+            src="/uploads/profile-default.png" 
+            alt="Profile 기본" 
+            class="w-full h-full rounded-full object-cover transition duration-300 hover:hidden"
+          >
+          <img 
+            src="/uploads/profile-hover.png" 
+            alt="Profile Hover" 
+            class="w-full h-full rounded-full object-cover hidden hover:block"
+          >
         </div>
 
   #About 
