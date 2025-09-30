@@ -11,23 +11,24 @@ type: landing
 #      show_breadcrumb: true
 
 sections:
-  - block: feature
+  - block: cta
     content: 
       title: 연락처
-      items:
-        icon: hero/envelope
-        icon_pack: hero
-        name: Email
-        description: '[miso0307@jbnu.ac.kr](mailto:miso0307@jbnu.ac.kr)'
-        icon: hero/envelope
-        icon_pack: hero
-        name: Phone
-        description: 010-5596-7294
-  
+      text: |-
+        궁금한 점은 이메일 또는 문자로 문의해주세요
+      buttons:
+        - text: ''
+          url: mailto:miso0307@jbnu.ac.kr
+          icon: fas envelope
+        - text: ''
+          url: +821055967294
+          icon: fas phone
+
   - block: markdown
     content:
       title: 찾아오시는 길
       text: |-
+
         <img src = " ">
         email: [miso0307@jbnu.ac.kr](mailto:miso0307@jbnu.ac.kr)  
         phone: 010-5596-7294  
