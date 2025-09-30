@@ -1,15 +1,33 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-date: 2022-10-24
+date: 2025-09-28
 type: landing
 
 design:
   # Default section spacing
   spacing: '6rem'
 
+
+sections:
+  - block: markdown
+    content:
+      title: ''
+      text: |-
+        <div class="relative w-56 h-56 mx-auto">
+          <!-- 기본 이미지 -->
+          <img src="/uploads/profile-default.png" alt="Profile 기본"
+               class="absolute inset-0 w-full h-full rounded-full object-cover transition-opacity duration-300 hover:opacity-0">
+          
+          <!-- Hover 시 나타나는 이미지 -->
+          <img src="/uploads/profile-hover.png" alt="Profile Hover"
+               class="absolute inset-0 w-full h-full rounded-full object-cover opacity-0 transition-opacity duration-300 hover:opacity-100">
+        </div>
+
+#About 
 sections:
   - block: resume-biography-3
+    id: about
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       authors: ["admin"]
