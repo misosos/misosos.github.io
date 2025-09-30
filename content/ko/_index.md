@@ -24,8 +24,7 @@ sections:
                class="absolute inset-0 w-full h-full rounded-full object-cover opacity-0 transition-opacity duration-300 hover:opacity-100">
         </div>
 
-#About 
-sections:
+  #About 
   - block: resume-biography-3
     id: about
     content:
