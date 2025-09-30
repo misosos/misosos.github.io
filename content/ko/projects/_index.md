@@ -10,6 +10,7 @@ design:
 # Page sections
 sections:
   - block: collection
+    id: projects
     content:
       title: Projects
       text: ''
