@@ -64,16 +64,11 @@ sections:
   #  design:
   #    columns: '1'
 
-  - block: collection
-    id: projects
+  - block: markdown
     content:
       title: Projects
-      filters:
-        folders:
-          - projects
-    design:
-      view: article-grid
-      columns: 3
+      text: |-
+        {{< projects-slider >}}
 
   - block: collection
     content:
