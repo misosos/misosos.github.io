@@ -8,9 +8,9 @@ design:
   # Default section spacing
   spacing: '6rem'
 
-
 sections:
   - block: markdown
+    id: hero
     content:
       title: ''
       text: |-
@@ -65,6 +65,7 @@ sections:
   #    columns: '1'
 
   - block: markdown
+    id: projects
     content:
       title: Projects
       text: |-

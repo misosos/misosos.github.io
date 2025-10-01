@@ -36,6 +36,7 @@ header:
     show_theme_chooser: true
     logo:
       text: 'miso Kim'
+      url: "/#hero"
 
 # Site footer
 footer:
