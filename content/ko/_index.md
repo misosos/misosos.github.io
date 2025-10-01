@@ -14,7 +14,7 @@ sections:
     content:
       title: ''
       text: |-
-        <div class="relative w-56 h-56 mx-auto group">
+        <div class="relative w-72 h-72 mx-auto group">
           <img 
             src="/uploads/profile-default.png" 
             alt="Profile 기본" 
