@@ -14,18 +14,17 @@ sections:
     content:
       title: ''
       text: |-
-        <div class="relative flex items-center justify-center h-screen bg-white dark:bg-black group">
-          <div class="w-72 h-72">
-            <img 
-              src="/uploads/profile-default.png" 
-              alt="Profile 기본" 
-              class="w-full h-full rounded-full object-cover transition-opacity duration-300 group-hover:opacity-0"
-            >
-            <img 
-              src="/uploads/profile-hover.png" 
-              alt="Profile Hover" 
-              class="absolute inset-0 w-full h-full rounded-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-            >
+        <div class="relative w-72 h-72 mx-auto group">
+          <img 
+            src="/uploads/profile-default.png" 
+            alt="Profile 기본" 
+            class="w-full h-full rounded-full object-cover transition-opacity duration-300 group-hover:opacity-0"
+          >
+          <img 
+            src="/uploads/profile-hover.png" 
+            alt="Profile Hover" 
+            class="absolute inset-0 w-full h-full rounded-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          >
         </div>
 
   #About 
