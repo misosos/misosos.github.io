@@ -4,6 +4,7 @@ date: 2025-09-25
 links:
   - type: site
     url: https://jsfiddle.net/kimmiso/Ln8xoyb9/14/
+image: featured.png  
 tags:
   - HTML
   - CSS

@@ -1,6 +1,7 @@
 ---
 title: 영화 추천 알고리즘 구현
 date: 2024-12-03
+image: featured.png  
 tags:
   - Algorithm
   - Data Visualization
