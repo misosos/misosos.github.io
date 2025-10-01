@@ -2,18 +2,21 @@
   <div id="slider" class="overflow-x-auto snap-x snap-mandatory flex space-x-6 px-4">
     {{ $projSec := site.GetPage "section" "projects" }}
     {{ range $projSec.Pages }}
-      <div class="snap-center shrink-0 w-[90vw] md:w-[70vw] lg:w-[60vw] max-w-4xl mx-auto bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4 pb-6">
-       {{ with .Resources.GetMatch "featured*" }}
-        <img src="{{ .RelPermalink }}" alt="{{ .Title }}"
-              class="w-full max-h-[50vh] md:max-h-[60vh] object-contain rounded-lg mb-6 mx-auto">
-      {{ end }}
+      <a href="{{ .RelPermalink }}" 
+         class="snap-center shrink-0 w-[90vw] md:w-[70vw] lg:w-[60vw] max-w-4xl mx-auto bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4 pb-6 block hover:shadow-xl transition">
+        
+        {{ with .Resources.GetMatch "featured*" }}
+          <img src="{{ .RelPermalink }}" alt="{{ .Title }}"
+                class="w-full max-h-[50vh] md:max-h-[60vh] object-contain rounded-lg mb-6 mx-auto">
+        {{ end }}
 
         <!-- 제목 -->
         <h3 class="text-2xl font-bold mb-2 text-center">{{ .Title }}</h3>
         
-      </div>
+      </a>
     {{ end }}
   </div>
+</div>
 
   <!-- 좌우 버튼 -->
   <button id="prevBtn" class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/70 dark:bg-gray-700 p-2 rounded-full shadow">
