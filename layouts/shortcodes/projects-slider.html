@@ -1,4 +1,4 @@
-<div class="relative">
+<div class="relative max-w-5xl mx-auto border border-gray-300 dark:border-gray-700 rounded-xl">>
   <div id="slider" class="overflow-x-auto snap-x snap-mandatory flex space-x-6 px-4">
     {{ $projSec := site.GetPage "section" "projects" }}
     {{ range $projSec.Pages }}
@@ -11,20 +11,19 @@
         {{ end }}
 
         <!-- 제목 -->
-        <h3 class="text-2xl font-bold mb-2 text-center">{{ .Title }}</h3>
+        <p class="text-2xl font-bold mb-2 text-center">{{ .Title }}</p>
         
       </a>
     {{ end }}
   </div>
-</div>
 
- <!-- 좌우 버튼 -->
-  <button id="prevBtn" 
-          class="absolute left-6 top-1/2 -translate-y-1/2 bg-white/80 dark:bg-gray-700 p-3 rounded-full shadow-md hover:scale-110 transition">
+  <!-- 좌우 버튼 -->
+  <button id="prevBtn"
+    class="absolute left-3 md:left-6 top-1/2 -translate-y-1/2 z-10 bg-white/80 dark:bg-gray-700 p-3 rounded-full shadow-md hover:scale-110 transition">
     ◀
   </button>
-  <button id="nextBtn" 
-          class="absolute right-6 top-1/2 -translate-y-1/2 bg-white/80 dark:bg-gray-700 p-3 rounded-full shadow-md hover:scale-110 transition">
+  <button id="nextBtn"
+    class="absolute right-3 md:right-6 top-1/2 -translate-y-1/2 z-10 bg-white/80 dark:bg-gray-700 p-3 rounded-full shadow-md hover:scale-110 transition">
     ▶
   </button>
 </div>
