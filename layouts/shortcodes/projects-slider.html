@@ -51,14 +51,16 @@
   function show(){
     if(index < 0)
       index = slides.length - 1;
-    if(index >= slides.length){
+    if(index >= slides.length)
       index = 0;
-    }
-    slides[index].scrollIntoView({
-    behavior: "smooth",   // 부드럽게
-    inline: "center",     // 가로 중앙 정렬
-    block: "nearest"      // 세로는 가장 가까운 위치
-  });
+
+    const target = slides[index];
+    const offset = target.offsetLeft - (track.clientWidth - target.clientWidth) / 2;
+
+    track.scrollTo({
+      left: offset,
+      behavior: "smooth"
+    });
   }
 
   document.getElementById('prevBtn').addEventListener('click', () => {
@@ -90,6 +92,4 @@
     { threshold: 0.3 } // 30% 이상 보일 때 동작
   );
   observer.observe(track);
-
-  show();
 </script>
