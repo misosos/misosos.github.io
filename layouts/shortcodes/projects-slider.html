@@ -3,11 +3,10 @@
     {{ $projSec := site.GetPage "section" "projects" }}
     {{ range $projSec.Pages }}
       <div class="snap-center shrink-0 w-[80vw] bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4">
-        <!-- 큰 이미지 -->
-        {{ with .Params.image }}
-          <img src="{{ . }}" alt="{{ $.Title }}" 
-              class="w-full h-[400px] object-cover rounded-lg mb-4">
-        {{ end }}
+       {{ with .Resources.GetMatch "featured*" }}
+        <img src="{{ .RelPermalink }}" alt="{{ $.Title }}"
+            class="w-full h-[400px] object-cover rounded-lg mb-4">
+      {{ end }}
 
         <!-- 제목 -->
         <h2 class="text-2xl font-bold mb-2 text-center">{{ .Title }}</h2>

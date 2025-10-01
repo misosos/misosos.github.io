@@ -5,7 +5,6 @@ links:
   - type: pdf
     url: /uploads/개별_보고서.pdf
     name: 개별보고서
-image: featured.png  
 tags:
   - Android
   - Kotlin
