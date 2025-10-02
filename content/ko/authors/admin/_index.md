@@ -96,7 +96,7 @@ skills:
       - name: Photoshop
         description: ''
         percent: 70
-        icon: brands/photoshop
+        icon: assets/media/icons/photoshop
 
       - name: Figma
         description: ''
@@ -111,7 +111,7 @@ skills:
       - name: CSS
         description: ''
         percent: 50
-        icon: brands/css3
+        icon: assets/media/icons/css3
 
       - name: JavaScript
         description: ''
@@ -121,7 +121,7 @@ skills:
       - name: TypeScript
         description: ''
         percent: 25
-        icon: brands/typescript
+        icon: assets/media/icons/typescript
 
       - name: React
         description: ''
