@@ -15,12 +15,12 @@ sections:
       username: admin
     design:
       # Hugo date format
-      date_format: 'January 2006'
+      date_format: '2006.01'
       # Education or Experience section first?
       is_education_first: false
   - block: resume-skills
     content:
-      title: Skills 
+      title: 기술 
       username: admin
     design:
       show_skill_percentage: true
@@ -30,6 +30,6 @@ sections:
   #    username: admin
   - block: resume-languages
     content:
-      title: Languages
+      title: 언어
       username: admin
 ---
