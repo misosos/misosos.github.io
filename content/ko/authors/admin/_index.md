@@ -91,42 +91,42 @@ skills:
       - name: Python
         description: ''
         percent: 80
-        icon: brands/python
+        icon: "devicon/python"
 
       - name: Photoshop
         description: ''
         percent: 70
-        icon: assets/media/icons/photoshop
+        icon: "devicon/photoshop"
 
       - name: Figma
         description: ''
         percent: 80
-        icon: brands/figma
+        icon: "devicon/figma"
 
       - name: HTML
         description: ''
         percent: 85
-        icon: brands/html5
+        icon: "devicon/html5"
 
       - name: CSS
         description: ''
         percent: 50
-        icon: assets/media/icons/css3
+        icon: "devicon/css3"
 
       - name: JavaScript
         description: ''
         percent: 65
-        icon: brands/square-js
+        icon: "devicon/javascript"
 
       - name: TypeScript
         description: ''
         percent: 25
-        icon: assets/media/icons/typescript
+        icon: "devicon/typescript"
 
       - name: React
         description: ''
         percent: 20
-        icon: brands/react
+        icon: "devicon/react"
 
   #- name: Hobbies
   #  color: '#eeac02'
