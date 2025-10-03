@@ -11,6 +11,7 @@ design:
 # Page sections
 sections:
   - block: resume-skills
+    id: skills
     content:
       title: 기술 
       username: admin
