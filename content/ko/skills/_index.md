@@ -1,6 +1,6 @@
 ---
 title: 'Skills'
-date: 2025-10-04
+date: 2025-10-03
 type: landing
 
 design:
