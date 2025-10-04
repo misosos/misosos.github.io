@@ -14,9 +14,6 @@ sections:
     content:
       title: Projects
       text: ''
-      filters:
-        folders:
-          - projects
     design:
       view: article-grid
       fill_image: false

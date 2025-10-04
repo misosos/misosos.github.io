@@ -8,6 +8,7 @@ tags:
   - HTML
   - CSS
   - JAVASCRIPT
+  - web-frontend
 ---
 
 순수 웹 언어인 html,css,javascript만을 사용해서 간단한 TodoList를 만들었습니다.

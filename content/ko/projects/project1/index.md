@@ -9,6 +9,7 @@ tags:
   - Android
   - Kotlin
   - TeamProject
+  - ui-ux
 ---
 
 전북대학교 모바일 프로그래밍 수업에서 3명이 함께 진행한 타임캡슐 앱 개발 프로젝트입니다.  

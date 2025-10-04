@@ -7,15 +7,30 @@ main:
   - name: About
     url: /#about
     weight: 10
+    
   - name: Skills
-    url: /skills
+    pageRef: skills
     weight: 11
+
   - name: Experience
-    url: /experience
+    pageRef: experience
     weight: 20
+
   - name: Projects
-    url: /projects
+    pageRef: projects
+    identifier: projects
     weight: 30
+
+  - name: 웹 프론트엔드 개발
+    pageRef: projects/web-frontend   
+    parent: projects
+    weight: 31
+
+  - name: UI/UX 디자인
+    pageRef: projects/ui-ux
+    parent: projects
+    weight: 32
+
   - name: Contact
-    url: /contact
+    pageRef: contact
     weight: 40
